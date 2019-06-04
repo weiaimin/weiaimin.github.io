@@ -15,7 +15,7 @@ HTTP协议工作于客户端-服务端架构上。浏览器作为HTTP客户端�
 
 当我们打开浏览器，在地址栏中输入URL地址如：
 `http://baidu.com`，然后我们就看到了网页。 原理是怎样的呢？实际上我们输入URL后，浏览器会向Web服务器发送了一个Request, Web服务器接到Request后进行处理，然后服务器Response回来给浏览器，浏览器解析Response中的HTML,这样我们就看到了网页，过程如下图所示：
-![Image.png](./images/http-img/Image.png)
+![Image.png](./img/http-img/Image.png)
 
 # URL
 URL: URL(Uniform Resource Locator) 统一资源定位符。作用:就是用于找到一个网络上的资源
@@ -51,7 +51,7 @@ schema://host[:port]/path/[?query-string][#anchor]      
  * 第二部分：Request header(请求头部)
  * 第三部分：空行
  * 第四部分：Request body(请求数据)结构如下图：
- ![Image1.png](./images/http-img/Image1.png)
+ ![Image1.png](./img/http-img/Image1.png)
  
 第一行中的Method：表示请求方法,比如&quot;POST&quot;,&quot;GET&quot;, Path-to-resoure表示请求的资源， Http/version-number 表示HTTP协议的版本号。
 
@@ -79,7 +79,7 @@ name=dachui&amp;age=18
 HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。
 
 * * *
-![Image.jpg](./images/http-img/Image.jpg)
+![Image.jpg](./img/http-img/Image.jpg)
 
 
 
