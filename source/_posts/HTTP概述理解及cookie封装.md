@@ -3,7 +3,9 @@ title: HTTP概述理解及cookie封装
 date: 2018-03-04 10:57:59
 tags:
     - javaScript
-    - 协议及cookie
+categories: 
+    - web前端
+    - javaScript
 ---
 
 # HTTP协议介绍
